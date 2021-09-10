@@ -1,0 +1,153 @@
+/*! 
+
+=========================================================
+
+ *University Responsive
+
+=========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+/**<!-- jdcreators-->**/
+
+
+@media(max-width:1400px){
+    .history-image-section .img-fluid{height: 385px;}
+}
+@media(max-width:1199px){
+    .nav-menu > li > a{padding: 26px 12px;}
+    .history-image-section .img-fluid {height: 315px;}
+    .team-member-title a{font-size: 18px;}
+    .team-member-body h4{margin-bottom: 0;}
+    .news-section .card-body h5{font-size:15px;}
+    .post-event-body h6{font-size: 14px;}
+    .post-event-body ul li a span{font-size: 12px;}
+    .home-2 .post-event-body ul li a span {font-size: 10px;}
+    .home-2 .feature-section{padding: 30px;}
+}
+@media(max-width:1040px){
+    .top-header .col-lg-9, .top-header .col-lg-3 {-webkit-box-flex: 0;-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%; text-align: center !important;}
+    .top-header .col-lg-3{margin-top:15px;}
+    .slick-next {right: -40px;}
+    .slick-prev {left: -40px;}
+}
+@media(max-width:1024px){
+    .authentication-box {padding: 50px 15px;}
+    .authentication-box .col-md-5, .authentication-box .col-md-7 {-webkit-box-flex: 0;-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+    .card-right {margin-left: 0;}
+    .authentication-box .container .bg-primary{margin-bottom: 30px;}
+    .team-member-body .btn{padding: 3px 12px;}
+}
+@media (max-width: 992px){
+    .col-xl-1-5 {width: unset;max-width: none;}
+}
+@media(max-width:991px){
+    .navigation-portrait .nav-search-button{line-height: 50px;}
+    .navigation-portrait .nav-search-close-button {top: 10px;}
+    .navigation-portrait .nav-search-inner input[type="text"], .navigation-portrait .nav-search-inner input[type="search"]{height: 50px;}
+    .navigation-portrait .nav-search{margin-right: 0;}
+    .footer-top h6{padding-top:20px;}
+    .footer-bottom .col-lg-6, .footer-bottom .col-lg-6 p{text-align: center !important;}
+    .footer-bottom .col-lg-6 p{margin-top: 10px;}
+    .footer-top.pad-70{padding: 40px 0;}
+    .breadcrumb-section{padding-top: 40px;padding-bottom: 40px;}
+    .breadcrumb-section h1 {font-size: 44px;}
+    .breadcrumb-section .pad-top-30 {padding-top: 10px;}
+    .page-navigation-area{margin: 20px auto 20px;}
+    .product-body img{height: 222px;}
+    .product-catlog-section .col-sm-12:nth-child(5), .product-catlog-section .col-sm-12:nth-child(6){margin-bottom: 1rem;}
+    .collection_slider .slick-slide img{height: 795px;}
+    .slider_nav .slick-slide img {height: 250px;}
+    .product_section .product-right{margin-top: 30px;}
+    .history-image-section .img-fluid {height: auto;}
+    .team-detail{margin-top: 30px;}
+    .post-vacation{width:100%;}
+    .event-section .col-md-6:nth-child(3), .event-section .col-md-6:nth-child(4){margin-top: 15px;}
+    .news-section .card{margin-bottom: 1.5rem;}
+    .home-2 .nav-toggle:before, .home-3 .nav-toggle:before {background-color:#fff;box-shadow: 0 0.5em 0 0 #fff, 0 1em 0 0 #fff;}
+    .header-tranparent .nav-menu > li > a {color: #e43f5a;}
+    .header-tranparent .submenu-indicator-chevron, .header-tranparent .submenu-indicator-chevron:hover {border-color: transparent #e43f5a #e43f5a transparent !important;}
+    .h-center .nav-toggle:before {background-color:#222222;box-shadow: 0 0.5em 0 0 #222222, 0 1em 0 0 #222222;}
+}
+@media screen and (max-width: 781px) {
+ul.tabs {display: none;}
+.tab_container {display: block;margin: 0 auto;width: 95%;border-top: none;border-radius: 0;box-shadow: 0px 0px 10px black;}
+.tab_drawer_heading {background-color: #e43f5a;border-bottom:1px solid #59405c;color: #fff;margin: 0;padding: 5px 20px;display: block;cursor: pointer;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;text-align: center;
+                         &:hover {background: #59405c;color: #fff;}}
+                         .d_active {background: #59405c;color: #fff;}
+.tab_content {padding-left: 0;padding: 20px 15px;}
+.program-section .tab_content h1{font-size: 1.5rem;}
+}
+@media(max-width:768px){
+    .cart_table .table .thead .th {display: none;}
+    .cart_table .table .tbody .td {text-align: left !important;display: inline-block;width: 100%;padding: 15px 0;}
+    .cart_table .table .tbody .td:before {content: attr(data-title) " :";display: inline-block;float: left;width: 50%;font-style: normal;font-weight: 600;}
+    .cart_table .table .tbody .td:first-child {border-top: 1px solid #e0dcdc !important;}
+    .cart_table .table .tbody .td .qty_number {display: inline-block;}
+    .cart_section .cart_btns a.pink:last-child{padding: 8px 10px 9px;}
+    .cart_section .cart_btns a.pink-button{padding: 8px 10px 9px;}
+}
+@media(max-width:767px){
+    .cart_section .cart_btns a.pink-button:last-child {margin-top: 10px;}
+    .product-catlog-section .col-sm-12:nth-child(7){margin-bottom: 1rem;}
+    .product-body img {height: auto;}
+    .collection_slider .slick-slide img {height: 575px;}
+    .slider_nav .slick-slide img {height: 170px;}
+    .error-area .error-content-wrap h1 {font-size: 200px;}
+    .course-section .col-md-6:nth-child(4), .course-section .col-md-6:nth-child(5){margin-bottom: 1rem;}
+    .slider-section .slick-slide img{margin: auto;}
+}
+@media(max-width:575px){
+        .pad-70{padding: 50px 0;}
+        .authentication-box {padding: 50px 15px;}
+        .grid-section.gallery-section .zoom-gallery .mb-5{margin-bottom: 0 !important;}
+        .grid-section .col-sm-4:after{width: 95%;}
+        .grid-section.gallery-section .row.zoom-gallery{margin-left: 0; margin-right: 0;}
+        .tab_drawer_heading{font-size: 22px;}
+        .coming-soon-area .coming-soon-content{max-width: fit-content;}
+        .people-section{text-align: center;}
+        .history-section .col-md-7 h2{margin-top: 20px;}
+        .course-section .col-lg-7{padding: 50px;}
+        .student-slider .col-md-3, .quote-classic-boxed{text-align: center !important;}
+        .slider-section{padding:50px;}
+        .quote-classic-boxed .quote-body{width:100%;}
+        .quote-classic-boxed q {font-size: 18px;line-height: 28px;}
+        .quote-body .text-right{text-align: center !important;}
+        .home-2 .post-event-body ul li a span{font-size: 14px;}
+}
+@media screen and (max-width: 480px) {
+    .tab_section .tabs_h {display: none;}
+    .tab_section .tab_drawer_heading_h {background-color: #e43f5a;color: #fff;border-top: 1px solid #59405c;margin: 0;padding: 5px 20px;display: block;cursor: pointer;webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+    .tab_section .d_active {background-color: #59405c;color: #fff;}
+    .navigation{padding: 0px 10px;}
+    .top-header{padding: 10px;}
+    .top-header .header-contact li {padding-right: 0;}
+    .navigation-portrait .nav-search {margin-right: 25px;}
+    .donate-section .w-75 {width: 100%!important;}
+    .breadcrumb-section h1 {font-size: 32px;}
+    .contact-wrap .contact-form{padding: 50px 30px;}
+    .news-details-area .comments-area .children {margin-left:0px;}
+    .error-area .error-content-wrap h1 {font-size: 100px;}
+    .coming-soon-area .coming-soon-content h1{font-size: 42px;}
+    .coming-soon-area .coming-soon-content #timer div{margin-left: 15px; margin-right: 15px; font-size: 34px;}
+    .coming-soon-area .coming-soon-content .newsletter-form button{position: relative; top: 30px;}
+    .banner-slide .banner-text{height:80vh;}
+    .footer-bottom{font-size: 14px;}
+    .course-section .col-lg-7 {padding: 50px 15px;}
+    .banner-text .w-50{width:100% !important;}
+    .banner-text h1{font-weight:28px;}
+    
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .nav-dropdown > li > a,.megamenu-list > li > a {width: 65%;}
+}
+@media(max-width:466px){
+    .cart_section .cart_btns a.pink-button:nth-child(3) {margin-top: 10px;}
+    .apply-form{padding: 11.95% 10%;}
+    .breadcrumb-section h1 {font-size: 28px;}
+}
+@media(max-width:375px){
+    .coming-soon-area .coming-soon-content #timer div{margin-left: 10px; margin-right: 10px;}
+    .people-section h1{font-size: 34px !important;}
+}
